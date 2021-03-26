@@ -14,18 +14,7 @@ while (i < color.length){
   var c = '#0000' + color[i];
   console.log(c);
   var box = '<div class="box" style="background:'+c+'"></div>';
-  container.innerHTML = container.innerHTML + box; 
-  i++; 
+  container.innerHTML = container.innerHTML + box;
+  i++;
 
 }
-
-
-
-
-
-
-
-
-
-
-
